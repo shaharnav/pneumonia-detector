@@ -1,0 +1,28 @@
+# --- Environments & Dependencies ---
+.venv/
+env/
+venv/
+node_modules/  
+
+# --- Python & ML Artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.pth          
+*.pt
+*.onnx
+
+# --- Large Data ---
+data/
+*.zip
+*.tar.gz
+
+# --- Frontend Build Artifacts ---
+dist/
+build/
+.eslintcache
+
+# --- System & IDE ---
+.DS_Store
+.vscode/      
