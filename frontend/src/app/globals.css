@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  /* Clinical Palette */
+  --medical-blue: #2563EB;
+  --clinical-bg: #F9FAFB;
+  --clinical-white: #FFFFFF;
+  --clinical-border: #E5E7EB; /* gray-200 */
+  --clinical-text: #111827; /* gray-900 */
+  --clinical-text-sec: #4B5563; /* gray-600 */
+}
+
+@theme {
+  --color-medical-blue: var(--medical-blue);
+  --color-clinical-bg: var(--clinical-bg);
+  --color-clinical-white: var(--clinical-white);
+  --color-clinical-border: var(--clinical-border);
+  --color-clinical-text: var(--clinical-text);
+  --color-clinical-text-sec: var(--clinical-text-sec);
+}
+
+body {
+  background-color: var(--clinical-bg);
+  color: var(--clinical-text);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  -webkit-font-smoothing: antialiased;
+}
