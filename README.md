@@ -1,7 +1,9 @@
-  source .venv/bin/activate
-  
-  uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+## Pneumonia Detector
 
-  cd frontend
-  npm install
-  npm run dev
+Simple wrapper over ResNet-18 that detects pneumonia in chest x-rays and assigns a confidence score to the resulting guess. Not to be used for actual diagnosis.
+
+To run, execute:
+
+```
+python3 start.py
+```
