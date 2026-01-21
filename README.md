@@ -7,3 +7,4 @@ To run, execute:
 ```
 python3 start.py
 ```
+To terminate, enter Ctrl + C into the terminal
